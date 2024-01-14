@@ -9,7 +9,7 @@ authors = ["Bagard Hoel"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-scripts-keepass_xml_to_pass = "scripts.keepass2pass:main"
+scripts-keepass-csv-to-pass = "scripts.keepass2_csv_to_pass:main"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
